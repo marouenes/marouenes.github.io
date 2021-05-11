@@ -13,7 +13,7 @@ Check out this [live demo](https://imfunniee.github.io/gitfolio/) to see gitfoli
 
 ### Let's Install
 
-[![Jekyll site CI](https://github.com/marouenes/marouenes.github.io/actions/workflows/jekyll.yml/badge.svg?branch=master)]
+[![Jekyll site CI](https://github.com/marouenes/marouenes.github.io/actions/workflows/jekyll.yml/badge.svg)](https://github.com/marouenes/marouenes.github.io/actions/workflows/jekyll.yml)
 
 Install gitfolio
 
