@@ -4,13 +4,12 @@
   "name": "Marouane Skandaji",
   "userimg": "https://avatars.githubusercontent.com/u/41709780?v=4",
   "sort": "star",
-  "order": "asc",
+  "order": "desc",
   "includeFork": true,
   "theme": "dark.css",
   "types": [
    "all"
   ],
-  "linkedin": "marouane-skandaji",
-  "twitter": "skandaji_"
+  "linkedin": "marouane-skandaji"
  }
 ]

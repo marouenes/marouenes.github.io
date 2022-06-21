@@ -1,6 +1,7 @@
 <img src="https://i.imgur.com/eA6clZr.png">
 
-# Gitfolio 
+# Gitfolio
+
 [![Tweet](https://img.shields.io/twitter/url/https/shields.io.svg?style=social)](https://twitter.com/intent/tweet?text=personal%20website%20and%20a%20blog%20for%20every%20github%20user%20@imfunnieee%20&url=https://github.com/imfunniee/gitfolio) ![GitHub release](https://img.shields.io/github/release/imfunniee/gitfolio.svg?style=popout-square) ![npm](https://img.shields.io/npm/dm/gitfolio.svg?style=popout-square) ![GitHub top language](https://img.shields.io/github/languages/top/imfunniee/gitfolio.svg?style=popout-square) ![GitHub last commit](https://img.shields.io/github/last-commit/imfunniee/gitfolio.svg?style=popout-square) ![GitHub](https://img.shields.io/github/license/imfunniee/gitfolio.svg?style=popout-square) [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 ### personal website + blog for every github user
@@ -26,7 +27,7 @@ npm i gitfolio -g
 Using the UI
 
 ```sh
-$ gitfolio ui
+gitfolio ui
 ```
 
 > Tip: You can use ui to create new blogs and for updating your folio too.
@@ -54,7 +55,7 @@ gitfolio run -p [port]
 To include forks on your personal website just provide `-f` or `--fork` argument while building
 
 ```sh
-$ gitfolio build <username> -f
+gitfolio build <username> -f
 ```
 
 #### Sorting Repos
@@ -62,7 +63,7 @@ $ gitfolio build <username> -f
 To sort repos provide `--sort [sortBy]` argument while building. Where `[sortBy]` can be `star`, `created`, `updated`, `pushed`,`full_name`. Default: `created`
 
 ```sh
-$ gitfolio build <username> --sort star
+gitfolio build <username> --sort star
 ```
 
 #### Ordering Repos
@@ -70,7 +71,7 @@ $ gitfolio build <username> --sort star
 To order the sorted repos provide `--order [orderBy]` argument while building. Where `[orderBy]` can be `asc` or `desc`. Default: `asc`
 
 ```sh
-$ gitfolio build <username> --sort star --order desc
+gitfolio build <username> --sort star --order desc
 ```
 
 #### Customize Themes
@@ -85,7 +86,7 @@ Themes are specified using the `--theme [theme-name]` flag when running the `bui
 For example, the following command will build the website with the dark theme
 
 ```sh
-$ gitfolio build <username> --theme dark
+gitfolio build <username> --theme dark
 ```
 
 #### Customize background image
@@ -93,7 +94,7 @@ $ gitfolio build <username> --theme dark
 To customize the background image just provide `--background [url]` argument while building
 
 ```sh
-$ gitfolio build <username> --background https://images.unsplash.com/photo-1557277770-baf0ca74f908?w=1634
+gitfolio build <username> --background https://images.unsplash.com/photo-1557277770-baf0ca74f908?w=1634
 ```
 
 You could also add in your custom CSS inside `index.css` to give it a more personal feel.
@@ -117,7 +118,7 @@ Go To `username.github.io` your site should be up!!
 To update your info, simply run
 
 ```sh
-$ gitfolio update
+gitfolio update
 ```
 
 or use the `Update` options in gitfolio's UI
@@ -131,7 +132,7 @@ To Update background or theme you need to run `build` command again.
 To add your first blog use the UI.
 
 ```sh
-$ gitfolio ui
+gitfolio ui
 ```
 
 This will open up a UI page and you can click on `New Blog` to create a new blog. Once you are done writing your blog you can hit the `Create Blog`.
@@ -146,7 +147,7 @@ Blog Demo? [here](https://imfunniee.github.io/gitfolio/blog/my-first-post/)
 
 Blog's default JSON Format
 
-```
+```json
 {
   "url_title": "my-first-blog", // the title you provide while creating a new blog, this appears in url
   "title": "Lorem ipsum dolor sit amet", // main title of blog
@@ -156,7 +157,9 @@ Blog's default JSON Format
 }
 ```
 
-### Follow the original creator of this awesome content on twitter for more updates [@imfunnieee](https://twitter.com/imfunnieee) KUDOS to him/her :+1:
+### Contributor
+
+Follow the original creator of this awesome content on twitter for more updates [@imfunnieee](https://twitter.com/imfunnieee) KUDOS to him/her :+1
 
 ### License
 

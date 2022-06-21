@@ -554,13 +554,13 @@ body {
       rgba(10, 10, 10, 0.3),
       rgb(10, 10, 10, 1)
     ),
-    url("https://4.bp.blogspot.com/-w1RRo7PZFZ8/VRbGzbrNOmI/AAAAAAABfzI/zWdn4QtDmt8/s0/Light_Bulbs_uhd.jpg");
+    url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80");
   --background-background: linear-gradient(
       0deg,
       rgba(10, 10, 10, 1),
       rgba(10, 10, 10, 0.6)
     ),
-    url("https://4.bp.blogspot.com/-w1RRo7PZFZ8/VRbGzbrNOmI/AAAAAAABfzI/zWdn4QtDmt8/s0/Light_Bulbs_uhd.jpg") center center fixed;
+    url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80") center center fixed;
   --height: 50vh;
 }
 
@@ -591,6 +591,6 @@ body {
         rgba(10, 10, 10, 1),
         rgba(10, 10, 10, 0)
       ),
-      url("https://4.bp.blogspot.com/-w1RRo7PZFZ8/VRbGzbrNOmI/AAAAAAABfzI/zWdn4QtDmt8/s0/Light_Bulbs_uhd.jpg") !important;
+      url("https://images.unsplash.com/photo-1553748024-d1b27fb3f960?w=1500&q=80") !important;
   }
 }
